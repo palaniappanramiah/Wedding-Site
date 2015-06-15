@@ -1,0 +1,100 @@
+@font-face {
+    font-family: GreatVibes;
+    src: url('../font/GreatVibes.ttf');
+}
+
+body{
+background-image : url('../images/bg1.jpg');
+font-size: 16px;
+}
+
+div#hmenu {
+   margin: 0;
+   padding: .3em 0 .3em 0;
+   background: #B0E0E6;
+   width: 100%;
+   text-align: center;
+}
+
+div#hmenu ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+div#hmenu ul li {
+   margin: 0;
+   padding: 0;
+   display: inline;
+}
+
+div#hmenu ul a{
+   margin: 0;
+   padding: .3em .4em .3em .4em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: medium;
+   color: #004415;
+}
+
+div#hmenu ul a:active, .inactive_link{
+   margin: 0;
+   padding: .3em .4em .3em .4em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: medium;
+   color: #4682B4;
+}
+
+div#hmenu ul a:hover{
+   margin: 0;
+   padding: .3em .4em .3em .4em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: medium;
+   color: #f6f0cc;
+   background-color: #4682B4;
+}
+
+#wrap{
+	max-width:750px;
+	margin-left:10px;
+}
+
+#content{
+	width:750px;
+}
+
+.container{
+	width:750px;
+	height:435px;
+	border:1px solid gray;
+	box-sizing:border-box;
+	background: white;
+}
+.slider_wrapper{
+	overflow: hidden;
+	position:relative;
+	height:435px;
+	top:auto;
+}
+#image_slider{
+	position: relative;
+	height: auto;
+	list-style: none;
+	overflow: hidden;
+	float: left;
+	padding:0px;
+	margin:0px;
+}
+#image_slider li{
+	position: relative;
+	float: left;
+}
+
+#header {
+	min-width: 750px;
+    font-family: "GreatVibes";
+    font-size: 40px;
+	color : #000000;
+}

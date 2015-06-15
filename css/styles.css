@@ -1,0 +1,263 @@
+@font-face {
+    font-family: GreatVibes;
+    src: url('../font/GreatVibes.ttf');
+}
+
+body{
+background-image : url('../images/bg1.jpg');
+background-repeat:no-repeat;
+font-size: 16px;
+}
+
+.img-circle {
+	padding: 10px 10px 10px 10px;
+    display: block;
+    max-width: 25%;
+    border-radius: 50%;
+}
+
+#srini-story  h1, #anjaan-story  h1{
+	font-family: "GreatVibes";
+	padding: 10px 10px 10px 10px;
+}
+
+#srini-story {
+	margin-left:10px;
+    background-color: rgba(0, 0, 0, 0.5);
+	width: 350px;
+    height: 800px;
+	text-align: justify;
+	color: #ffffff;
+}
+
+#anjaan-story {
+	margin-left:15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000000;
+    width: 350px;
+    height: 800px;
+	text-align: justify;
+}
+
+#srinistory, #anjaanstory{
+	padding: 10px 10px 10px 10px;
+	text-align: justify;
+}
+
+#card{
+    margin-left: 50px;
+    border: 0 none;
+	width:600px;
+}
+
+#back{
+    margin-left: 80px;
+    border: 0 none;
+}
+
+.well {
+	font-size: 18px;
+	text-align: center;
+    background-color: #0d747c;
+    border: 1px solid #0a565c;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    margin-bottom: 20px;
+    min-height: 20px;
+    padding: 19px;
+	color : #ffffff;
+}
+
+#wrap{
+margin-left:10px;
+color : #000000;
+}
+
+#wraps{
+margin-left:5%;
+color : #000000;
+}
+
+#header {
+    font-family: "GreatVibes";
+    font-size: 40px;
+	color : #000000;
+}
+
+.smallimage{
+width:200px;
+height:100px;
+}
+
+.smallimage:hover {
+   background-image: url('../images/couple.jpg');
+}
+
+div#hmenu {
+   margin: 0;
+   padding: .3em 0 .3em 0;
+   background: #B0E0E6;
+   width: 100%;
+   text-align: center;
+}
+
+div#hmenu ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+div#hmenu ul li {
+   margin: 0;
+   padding: 0;
+   display: inline;
+}
+
+div#hmenu ul a{
+   margin: 0;
+   padding: .3em .4em .3em .4em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: medium;
+   color: #004415;
+}
+
+div#hmenu ul a:active, .inactive_link{
+   margin: 0;
+   padding: .3em .4em .3em .4em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: medium;
+   color: #4682B4;
+}
+
+div#hmenu ul a:hover{
+   margin: 0;
+   padding: .3em .4em .3em .4em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: medium;
+   color: #f6f0cc;
+   background-color: #4682B4;
+}
+
+div {
+	display: inline-block;
+}
+
+.one {
+	font-size: 32px;
+	font-family: "GreatVibes";
+	color: #000000;
+	width: 100%;
+	text-align: center;
+}
+
+.two {
+	font-size: 24px;
+	font-family: "GreatVibes";
+	color: #000000;
+}
+
+#place {
+	width: 100%;
+	text-align: center;
+}
+
+#cssmenu h2{
+  background: #CCFFCC;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#note{
+	color: #666666;
+	font-size: 16px;
+	padding: 4px;
+	text-align: center;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+	width: 100%;
+}
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #000000;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}	
+
+div.img img {
+    display: inline;
+    margin: 7px;
+    border: 1px solid #ffffff;
+	width: 170px;
+	height:170px;
+}
+
+div.img a:hover img {
+    border: 1px solid #ff00ff;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+}
+
+span.drop:hover {
+text-decoration: none;
+background: #ffffff;
+z-index: 6;
+}
+
+span.drop span {
+	position: absolute;
+	left: -9999px;
+	margin: 20px 0 0 0px;
+	padding: 3px 3px 3px 3px;
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	z-index: 6;
+}
+
+span.drop:hover span {
+	left: 2%;
+	background: #ffffff;
+} 
+
+span.drop span {
+	position: absolute;
+	left: -9999px;
+	margin: 4px 0 0 0px;
+	padding: 3px 3px 3px 3px; 
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+}
+
+span.drop:hover span {
+	margin: 20px 190px 180px 170px;
+	background: #ffffff;
+	z-index:6;
+}
+
+#form {
+vertical-align: middle;
+margin-left:80px;
+}
+
+label {
+    width:75px;
+    clear:left;
+    text-align:right;
+    padding-right:10px;
+}
+
+input, label {
+    float:left;
+}

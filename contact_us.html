@@ -1,0 +1,71 @@
+<!doctype html>	
+	<head>
+		<title>We're getting married!!</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="icon" type="image/jpg" href="images/ans.jpg"/>
+		<script>
+		function validateForm() {
+			
+			var x = document.forms["form"]["email"].value;
+			var atpos = x.indexOf("@");
+			var dotpos = x.lastIndexOf(".");
+			var y = document.forms["form"]["first_name"].value;
+			var z = document.forms["form"]["last_name"].value;
+			
+			if (y == null || y == "") {
+				alert("First name must be filled out");
+				return false;
+			}
+
+			if (z == null || z == "") {
+				alert("Last name must be filled out");
+				return false;
+			}
+			
+			if (x == null || x == "") {
+				alert("eMail Id must be filled out");
+				return false;
+			}
+			
+			if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+				alert("Not a valid e-mail address");
+				return false;
+			}
+		}
+		</script>
+	</head>
+	
+	<body>
+
+		<div id="hmenu">
+			<ul>
+			  <li><a href="our_story.html">Our Story</a></li>
+			  <li><a href="big_day.html">The Big Day</a></li>
+			  <li><a href="home.html">Anjaan weds Srini</a></li>
+			  <li><a href="photos.html">Photos</a></li>
+			  <li><a href="faq.html">FAQs</a></li>
+			  <li class="inactive_link">Contact Us</li>
+			</ul>  
+		</div>
+		
+		<br/>
+		<h1 id="header">Suggestion Please!</h1>
+		
+		<strong>Love our wedding site? Want to make a site for you? Credits goes to Our friend Palaniappan. Please feel free to contact him or Anjaan, if you wish to create one for yourself by filling out the form below,</a></strong>
+		<br/><br/><br/><br/>
+		<form id="form" action="MAILTO:palap219@gmail.com?Subject=Hello%20Sir" onsubmit="return validateForm();" method="post" enctype="text/plain">
+			<label for="first_name">First name:</label><input type="text" id="first_name" name="first_name" placeholder="first name"><br/><br/>
+			<label for="last_name">Last name:</label><input type="text" id="last_name" name="last_name" placeholder="last name"><br/><br/>
+			<label for="email">e-mail Id:</label><input type="text" id="email" name="email" placeholder="mail@abc.com"><br/><br/>
+			<label for="comment">Suggestion:</label><input type="text" id="comment" name="comment" placeholder="Enter your suggestion..." size="35">
+			<br/><br/>
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+		</form>
+		
+		<br/><br/><br/>
+		<p><strong>More questions?<br/>
+		Contact Anjaan at <a style="color: rgb(241,100,33)" target="_top" href="mailto:anjaan@gmail.com.?Subject=Wedding Question">anjaan@gmail.com</a> 
+		or Srini at <a style="color: rgb(241,100,33)" target="_top" href="mailto:srini@gmail.com.?Subject=Wedding Question">srini@gmail.com</a>.</strong></p>   
+	</body>
+</html>
